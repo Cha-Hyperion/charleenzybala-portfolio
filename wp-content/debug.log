@@ -1,0 +1,22 @@
+[30-Nov-2020 09:10:53 UTC] PHP Notice:  Undefined index: post_id in /var/www/html/PROJETS-PERSO/test-elementor/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php on line 61
+[30-Nov-2020 09:10:53 UTC] PHP Stack trace:
+[30-Nov-2020 09:10:53 UTC] PHP   1. {main}() /var/www/html/PROJETS-PERSO/test-elementor/wp/wp-admin/admin-ajax.php:0
+[30-Nov-2020 09:10:53 UTC] PHP   2. do_action() /var/www/html/PROJETS-PERSO/test-elementor/wp/wp-admin/admin-ajax.php:176
+[30-Nov-2020 09:10:53 UTC] PHP   3. WP_Hook->do_action() /var/www/html/PROJETS-PERSO/test-elementor/wp/wp-includes/plugin.php:478
+[30-Nov-2020 09:10:53 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/PROJETS-PERSO/test-elementor/wp/wp-includes/class-wp-hook.php:311
+[30-Nov-2020 09:10:53 UTC] PHP   5. ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form() /var/www/html/PROJETS-PERSO/test-elementor/wp/wp-includes/class-wp-hook.php:287
+[30-Nov-2020 09:10:53 UTC] PHP Notice:  Undefined index: form_id in /var/www/html/PROJETS-PERSO/test-elementor/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php on line 73
+[30-Nov-2020 09:10:53 UTC] PHP Stack trace:
+[30-Nov-2020 09:10:53 UTC] PHP   1. {main}() /var/www/html/PROJETS-PERSO/test-elementor/wp/wp-admin/admin-ajax.php:0
+[30-Nov-2020 09:10:53 UTC] PHP   2. do_action() /var/www/html/PROJETS-PERSO/test-elementor/wp/wp-admin/admin-ajax.php:176
+[30-Nov-2020 09:10:53 UTC] PHP   3. WP_Hook->do_action() /var/www/html/PROJETS-PERSO/test-elementor/wp/wp-includes/plugin.php:478
+[30-Nov-2020 09:10:53 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/PROJETS-PERSO/test-elementor/wp/wp-includes/class-wp-hook.php:311
+[30-Nov-2020 09:10:53 UTC] PHP   5. ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form() /var/www/html/PROJETS-PERSO/test-elementor/wp/wp-includes/class-wp-hook.php:287
+[30-Nov-2020 09:10:53 UTC] PHP Notice:  Undefined index: post_id in /var/www/html/PROJETS-PERSO/test-elementor/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php on line 217
+[30-Nov-2020 09:10:53 UTC] PHP Stack trace:
+[30-Nov-2020 09:10:53 UTC] PHP   1. {main}() /var/www/html/PROJETS-PERSO/test-elementor/wp/wp-admin/admin-ajax.php:0
+[30-Nov-2020 09:10:53 UTC] PHP   2. do_action() /var/www/html/PROJETS-PERSO/test-elementor/wp/wp-admin/admin-ajax.php:176
+[30-Nov-2020 09:10:53 UTC] PHP   3. WP_Hook->do_action() /var/www/html/PROJETS-PERSO/test-elementor/wp/wp-includes/plugin.php:478
+[30-Nov-2020 09:10:53 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/PROJETS-PERSO/test-elementor/wp/wp-includes/class-wp-hook.php:311
+[30-Nov-2020 09:10:53 UTC] PHP   5. ElementorPro\Modules\Forms\Classes\Ajax_Handler->ajax_send_form() /var/www/html/PROJETS-PERSO/test-elementor/wp/wp-includes/class-wp-hook.php:287
+[30-Nov-2020 09:10:53 UTC] PHP   6. ElementorPro\Modules\Forms\Classes\Ajax_Handler->send() /var/www/html/PROJETS-PERSO/test-elementor/wp-content/plugins/elementor-pro/modules/forms/classes/ajax-handler.php:94

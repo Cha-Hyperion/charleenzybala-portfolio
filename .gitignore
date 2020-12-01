@@ -3,6 +3,8 @@ wp
 wp-config.php
 
 wp-content/themes/*
+!wp-content/themes/hello-elementor-child
+
 wp-content/plugins/*
 wp-content/languages/*
 wp-content/uploads
