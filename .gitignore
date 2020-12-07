@@ -6,6 +6,7 @@ wp-content/themes/*
 !wp-content/themes/hello-elementor-child
 
 wp-content/plugins/*
+!wp-content/plugins/portfolio
 wp-content/languages/*
 wp-content/uploads
 
