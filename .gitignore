@@ -9,4 +9,7 @@ wp-content/plugins/*
 wp-content/languages/*
 wp-content/uploads
 
+wp-content/debug.log
+
+
 
