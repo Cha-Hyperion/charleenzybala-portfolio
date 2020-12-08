@@ -3,11 +3,16 @@ namespace portfolio;
 
 use portfolio\PostType\Project as ProjectPostType;
 use portfolio\Taxonomy\TypeOfProject as TypeOfProjectTaxonomy;
+use portfolio\CustomFields\Fields;
+use portfolio\Shortcodes\Shortcodes;
 
 class Plugin {
     public function run() {
         $this->registerPluginHooks();
         $this->addInitActions();
+        $this->acfActions();
+        $this->addShortcodes();
+        
     }
 
     public function addInitActions() {
@@ -47,6 +52,42 @@ class Plugin {
         $typeOfProject = new TypeOfProjectTaxonomy;
         $typeOfProject->unregister();
     }
+
+    private function acfActions()
+    {
+        add_action(
+            'acf/init',
+            [
+                Fields::class,
+                'addCustomFields'
+            ]
+        );
+    }
+
+    public function addShortcodes() {
+        add_shortcode( 
+            'conception_list',
+            [
+                Shortcodes::class,
+                'shortcodeGetConceptionList'
+            ]
+        );
+        add_shortcode( 
+            'development_list',
+            [
+                Shortcodes::class,
+                'shortcodeGetDevelopmentList'
+            ]
+        );
+        add_shortcode( 
+            'maintenance_list',
+            [
+                Shortcodes::class,
+                'shortcodeGetMaintenanceList'
+            ]
+        );
+    }
+
 
     public function registerPluginHooks()
     {
