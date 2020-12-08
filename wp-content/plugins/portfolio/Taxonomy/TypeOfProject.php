@@ -5,7 +5,7 @@ use portfolio\PostType\Project as ProjectPostType;
 
 class TypeOfProject {
 
-    public const NAME = 'type';
+    public const NAME = 'type-of-project';
 
     public function register() {
     
