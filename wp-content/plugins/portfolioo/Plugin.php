@@ -93,6 +93,21 @@ class Plugin {
                 'shortcodeGetWebsiteProject'
             ]
         );
+        add_shortcode( 
+            'get_previous-post',
+            [
+                Shortcodes::class,
+                'shortcodeGetPreviousPost'
+            ]
+        );
+        add_shortcode( 
+            'get_next-post',
+            [
+                Shortcodes::class,
+                'shortcodeGetNextPost'
+            ]
+        );
+        
     }
 
 
