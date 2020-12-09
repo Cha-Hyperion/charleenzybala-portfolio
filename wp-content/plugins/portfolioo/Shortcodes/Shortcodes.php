@@ -16,4 +16,10 @@ class Shortcodes {
         return the_field('maintenance');
     }
 
+    public static function shortcodeGetWebsiteProject() {
+        if (! empty(get_field('website'))) {
+            return '<a href="' . get_field('website') . '">Voir le site</a>';
+        }
+    }
+
 }

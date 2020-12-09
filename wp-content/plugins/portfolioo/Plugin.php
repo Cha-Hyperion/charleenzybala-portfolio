@@ -86,6 +86,13 @@ class Plugin {
                 'shortcodeGetMaintenanceList'
             ]
         );
+        add_shortcode( 
+            'get_website',
+            [
+                Shortcodes::class,
+                'shortcodeGetWebsiteProject'
+            ]
+        );
     }
 
 
