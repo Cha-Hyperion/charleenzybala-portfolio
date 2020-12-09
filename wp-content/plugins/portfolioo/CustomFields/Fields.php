@@ -67,24 +67,6 @@ class Fields
 			        'preview_size' => 'large',
 			        'library' => 'all',
                 ],
-                [
-                    'key' => 'image_2',
-                    'label' => 'Image 2',
-                    'name' => 'image_2',
-                    'type' => 'image',
-                    'return_format' => 'id',
-			        'preview_size' => 'large',
-			        'library' => 'all',
-                ],
-                [
-                    'key' => 'image_3',
-                    'label' => 'Image 3',
-                    'name' => 'image_3',
-                    'type' => 'image',
-                    'return_format' => 'id',
-			        'preview_size' => 'large',
-			        'library' => 'all',
-                ],
             ],
             'location' => 
             [

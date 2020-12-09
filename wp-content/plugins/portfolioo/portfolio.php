@@ -20,5 +20,5 @@ require_once ABSPATH . 'wp-admin/includes/user.php';
 //var_dump(ABSPATH . 'wp-admin/includes/user.php');
 //exit;
 
-$plugin = new portfolioCZ\Plugin;
+$plugin = new portfolioo\Plugin;
 $plugin->run();
