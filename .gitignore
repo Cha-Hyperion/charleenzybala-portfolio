@@ -9,6 +9,7 @@ wp-content/plugins/*
 !wp-content/plugins/portfolioo
 wp-content/languages/*
 wp-content/uploads
+wp-content/updraft
 
 wp-content/debug.log
 
