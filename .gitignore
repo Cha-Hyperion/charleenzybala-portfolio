@@ -10,6 +10,8 @@ wp-content/plugins/*
 wp-content/languages/*
 wp-content/uploads
 wp-content/updraft
+wp-content/ai1wm-backups
+
 
 wp-content/debug.log
 

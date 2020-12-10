@@ -1,9 +1,9 @@
 {
     "name": "portfolio/charlenezybala",
-    "description": "Test Elementor Pro",
+    "description": "Site vitrine de Charlene Zybala, freelance en création de site WordPress",
     "authors": [
         {
-            "name": "CharleneZybala"
+            "name": "Charlene Zybala"
         }
     ],
     "require": {
@@ -12,7 +12,12 @@
         "wpackagist-plugin/akismet": "^4.1",
         "wpackagist-plugin/elementor": "^3.0",
         "wpackagist-theme/hello-elementor": "^2.3",
-        "wpackagist-plugin/updraftplus": "^1.16"
+        "wpackagist-plugin/updraftplus": "^1.16",
+        "wpackagist-plugin/wordpress-seo": "^15.4",
+        "wpackagist-plugin/better-wp-security": "^7.9",
+        "wpackagist-plugin/imagify": "^1.9",
+        "wpackagist-plugin/wp-super-cache": "^1.7",
+        "wpackagist-plugin/google-analytics-for-wordpress": "^7.13"
     },
     "extra": {
         "wordpress-install-dir": "wp"
@@ -24,6 +29,6 @@
         }
     ],
     "scripts": {
-       "build-theme-assets": "cd wp-content/themes/your-theme/src && parcel build js/main.js --public-url ./"
+       "build-theme-assets": "cd wp-content/themes/hello-elementor-child/src && parcel build js/main.js --public-url ./"
     }
 }
