@@ -11,7 +11,8 @@
         "wpackagist-theme/twentytwenty": "^1.4",
         "wpackagist-plugin/akismet": "^4.1",
         "wpackagist-plugin/elementor": "^3.0",
-        "wpackagist-theme/hello-elementor": "^2.3"
+        "wpackagist-theme/hello-elementor": "^2.3",
+        "wpackagist-plugin/updraftplus": "^1.16"
     },
     "extra": {
         "wordpress-install-dir": "wp"
