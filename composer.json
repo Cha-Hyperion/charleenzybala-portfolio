@@ -17,7 +17,8 @@
         "wpackagist-plugin/better-wp-security": "^7.9",
         "wpackagist-plugin/imagify": "^1.9",
         "wpackagist-plugin/wp-super-cache": "^1.7",
-        "wpackagist-plugin/google-analytics-for-wordpress": "^7.13"
+        "wpackagist-plugin/google-analytics-for-wordpress": "^7.13",
+        "wpackagist-plugin/advanced-custom-fields": "^5.9"
     },
     "extra": {
         "wordpress-install-dir": "wp"
