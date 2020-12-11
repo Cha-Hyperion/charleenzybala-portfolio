@@ -15,10 +15,10 @@
         "wpackagist-plugin/updraftplus": "^1.16",
         "wpackagist-plugin/wordpress-seo": "^15.4",
         "wpackagist-plugin/better-wp-security": "^7.9",
-        "wpackagist-plugin/imagify": "^1.9",
         "wpackagist-plugin/wp-super-cache": "^1.7",
         "wpackagist-plugin/google-analytics-for-wordpress": "^7.13",
-        "wpackagist-plugin/advanced-custom-fields": "^5.9"
+        "wpackagist-plugin/advanced-custom-fields": "^5.9",
+        "wpackagist-plugin/tiny-compress-images": "^3.2"
     },
     "extra": {
         "wordpress-install-dir": "wp"

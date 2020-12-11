@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "665ad4b7ad532b48cb9390d66734ff30",
+    "content-hash": "fb0c00678ca7bb85edd17793bee8f892",
     "packages": [
         {
             "name": "composer/installers",
@@ -364,22 +364,22 @@
             "homepage": "https://wordpress.org/plugins/google-analytics-for-wordpress/"
         },
         {
-            "name": "wpackagist-plugin/imagify",
-            "version": "1.9.13",
+            "name": "wpackagist-plugin/tiny-compress-images",
+            "version": "3.2.1",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/imagify/",
-                "reference": "tags/1.9.13"
+                "url": "https://plugins.svn.wordpress.org/tiny-compress-images/",
+                "reference": "tags/3.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/imagify.1.9.13.zip"
+                "url": "https://downloads.wordpress.org/plugin/tiny-compress-images.3.2.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/imagify/"
+            "homepage": "https://wordpress.org/plugins/tiny-compress-images/"
         },
         {
             "name": "wpackagist-plugin/updraftplus",
