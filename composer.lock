@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fb0c00678ca7bb85edd17793bee8f892",
+    "content-hash": "9f8d8450f93441f2132e32dff0528d35",
     "packages": [
         {
             "name": "composer/installers",
@@ -292,24 +292,6 @@
             "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
         },
         {
-            "name": "wpackagist-plugin/akismet",
-            "version": "4.1.7",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/akismet/",
-                "reference": "tags/4.1.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/akismet.4.1.7.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/akismet/"
-        },
-        {
             "name": "wpackagist-plugin/better-wp-security",
             "version": "7.9.0",
             "source": {
@@ -400,6 +382,24 @@
             "homepage": "https://wordpress.org/plugins/updraftplus/"
         },
         {
+            "name": "wpackagist-plugin/w3-total-cache",
+            "version": "0.15.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/w3-total-cache/",
+                "reference": "tags/0.15.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.15.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/w3-total-cache/"
+        },
+        {
             "name": "wpackagist-plugin/wordpress-seo",
             "version": "15.4",
             "source": {
@@ -418,22 +418,22 @@
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
         },
         {
-            "name": "wpackagist-plugin/wp-super-cache",
-            "version": "1.7.1",
+            "name": "wpackagist-plugin/wp-optimize",
+            "version": "3.1.4",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-super-cache/",
-                "reference": "tags/1.7.1"
+                "url": "https://plugins.svn.wordpress.org/wp-optimize/",
+                "reference": "tags/3.1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-super-cache.1.7.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-optimize.3.1.4.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-super-cache/"
+            "homepage": "https://wordpress.org/plugins/wp-optimize/"
         },
         {
             "name": "wpackagist-theme/hello-elementor",

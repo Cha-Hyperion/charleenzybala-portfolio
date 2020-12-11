@@ -9,16 +9,16 @@
     "require": {
         "johnpbloch/wordpress": "^5.4",
         "wpackagist-theme/twentytwenty": "^1.4",
-        "wpackagist-plugin/akismet": "^4.1",
         "wpackagist-plugin/elementor": "^3.0",
         "wpackagist-theme/hello-elementor": "^2.3",
         "wpackagist-plugin/updraftplus": "^1.16",
         "wpackagist-plugin/wordpress-seo": "^15.4",
         "wpackagist-plugin/better-wp-security": "^7.9",
-        "wpackagist-plugin/wp-super-cache": "^1.7",
         "wpackagist-plugin/google-analytics-for-wordpress": "^7.13",
         "wpackagist-plugin/advanced-custom-fields": "^5.9",
-        "wpackagist-plugin/tiny-compress-images": "^3.2"
+        "wpackagist-plugin/tiny-compress-images": "^3.2",
+        "wpackagist-plugin/wp-optimize": "^3.1",
+        "wpackagist-plugin/w3-total-cache": "^0.15.2"
     },
     "extra": {
         "wordpress-install-dir": "wp"
