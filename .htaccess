@@ -72,6 +72,11 @@
 	</IfModule>
 # END iThemes Security - Ne modifiez pas ou ne supprimez pas cette ligne
 
+# BEGIN LSCACHE
+# END LSCACHE
+# BEGIN NON_LSCACHE
+# END NON_LSCACHE
+
 RewriteEngine on
 RewriteCond %{REQUEST_URI} !^wp/
 RewriteCond %{REQUEST_FILENAME} !-f
