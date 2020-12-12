@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f8d8450f93441f2132e32dff0528d35",
+    "content-hash": "2b6cbd72a75c8940ea5725f737b2325b",
     "packages": [
         {
             "name": "composer/installers",
@@ -328,24 +328,6 @@
             "homepage": "https://wordpress.org/plugins/elementor/"
         },
         {
-            "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "7.13.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/7.13.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.7.13.3.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/google-analytics-for-wordpress/"
-        },
-        {
             "name": "wpackagist-plugin/tiny-compress-images",
             "version": "3.2.1",
             "source": {
@@ -365,15 +347,15 @@
         },
         {
             "name": "wpackagist-plugin/updraftplus",
-            "version": "1.16.41",
+            "version": "1.16.42",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/updraftplus/",
-                "reference": "tags/1.16.41"
+                "reference": "tags/1.16.42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.16.41.zip"
+                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.16.42.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
