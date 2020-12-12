@@ -1,27 +1,14 @@
+*
+.git
+.well-known
 vendor
 wp
 wp-config.php
 
-wp-content/themes/*
+wp-content/*
 !wp-content/themes/hello-elementor-child
-
-wp-content/plugins/*
-wp-content/mu-plugins/*
-wp-content/cache/*
-wp-content/w3tc-config/*
-wp-content/wp-cache-config.php
-wp-content/wpo-cache/config/config-charlenezybala.com.php
-
-wp-content/object-cache.php
-
 !wp-content/plugins/portfolioo
-wp-content/languages/*
-wp-content/uploads
-wp-content/updraft
-wp-content/ai1wm-backups
 
-
-wp-content/debug.log
 
 
 
