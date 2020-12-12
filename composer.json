@@ -14,7 +14,6 @@
         "wpackagist-plugin/updraftplus": "^1.16",
         "wpackagist-plugin/wordpress-seo": "^15.4",
         "wpackagist-plugin/better-wp-security": "^7.9",
-        "wpackagist-plugin/google-analytics-for-wordpress": "^7.13",
         "wpackagist-plugin/advanced-custom-fields": "^5.9",
         "wpackagist-plugin/tiny-compress-images": "^3.2",
         "wpackagist-plugin/wp-optimize": "^3.1",
@@ -28,8 +27,5 @@
             "type":"composer",
             "url":"https://wpackagist.org"
         }
-    ],
-    "scripts": {
-       "build-theme-assets": "cd wp-content/themes/hello-elementor-child/src && parcel build js/main.js --public-url ./"
-    }
+    ]
 }

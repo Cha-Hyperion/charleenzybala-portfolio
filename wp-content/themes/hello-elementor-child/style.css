@@ -2,6 +2,14 @@
 Theme Name: Theme enfant
 Description: Theme enfant de Hello-Elementor pour test elementor
 Author: Charlene Zybala
+Author URI: https://charlenezybala.com
 Template: hello-elementor
 Version: 0.1.0
 */
+
+a {
+    color: green;
+}
+.mes-a {
+    color: red;
+}
