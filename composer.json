@@ -27,8 +27,5 @@
             "type":"composer",
             "url":"https://wpackagist.org"
         }
-    ],
-    "scripts": {
-       "build-theme-assets": "cd wp-content/themes/hello-elementor-child/src && parcel build js/main.js --public-url ./"
-    }
+    ]
 }
