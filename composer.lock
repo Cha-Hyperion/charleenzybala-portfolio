@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b6cbd72a75c8940ea5725f737b2325b",
+    "content-hash": "06bcdc1ece214acbba61338759569103",
     "packages": [
         {
             "name": "composer/installers",
@@ -332,6 +332,24 @@
             "homepage": "https://wordpress.org/plugins/better-wp-security/"
         },
         {
+            "name": "wpackagist-plugin/cookie-script-com",
+            "version": "1.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/cookie-script-com/",
+                "reference": "tags/1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/cookie-script-com.1.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/cookie-script-com/"
+        },
+        {
             "name": "wpackagist-plugin/elementor",
             "version": "3.0.14",
             "source": {
@@ -348,6 +366,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/google-analytics-for-wordpress",
+            "version": "7.14.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
+                "reference": "tags/7.14.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.7.14.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/google-analytics-for-wordpress/"
         },
         {
             "name": "wpackagist-plugin/tiny-compress-images",
@@ -369,15 +405,15 @@
         },
         {
             "name": "wpackagist-plugin/updraftplus",
-            "version": "1.16.42",
+            "version": "1.16.43",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/updraftplus/",
-                "reference": "tags/1.16.42"
+                "reference": "tags/1.16.43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.16.42.zip"
+                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.16.43.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -423,15 +459,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-optimize",
-            "version": "3.1.4",
+            "version": "3.1.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-optimize/",
-                "reference": "tags/3.1.4"
+                "reference": "tags/3.1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-optimize.3.1.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-optimize.3.1.6.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
