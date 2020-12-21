@@ -38,3 +38,29 @@ h4 {
 p, li {
     font-family: 'Montserrat', sans-serif;
 }
+
+/* Bandeau de Cookies */
+#cookiescript_accept, #cookiescript_save {
+    background-color: #feb846 !important;
+    color: white !important;
+}
+#cookiescript_accept:hover, #cookiescript_save:hover {
+    background-color: #42b3cb !important;
+    color: white !important;
+}
+#cookiescript_readmore:hover, #cookiescript_reportlink:hover, #cookiescript_cookiescriptlink:hover {
+    color: #42b3cb !important;
+}
+#cookiescript_manage:hover #cookiescript_manageicon .cookiescript_gear {
+    fill: #42b3cb !important;
+}
+#cookiescript_maintabs .cookiescript_active {
+    color: #feb846 !important;
+}
+#cookiescript_categories .cookiescript_active {
+    background-color: #feb846 !important;
+    color: white !important;
+}
+#cookiescript_reportwrap::-webkit-scrollbar-thumb, #cookiescript_aboutwrap::-webkit-scrollbar-thumb {
+    background-color: #feb846 !important;
+}
