@@ -58,15 +58,6 @@ class Fields
                     'name' => 'maintenance',
                     'type' => 'wysiwyg',
                 ],
-                [
-                    'key' => 'image_1',
-                    'label' => 'Image 1',
-                    'name' => 'image_1',
-                    'type' => 'image',
-                    'return_format' => 'id',
-			        'preview_size' => 'large',
-			        'library' => 'all',
-                ],
             ],
             'location' => 
             [

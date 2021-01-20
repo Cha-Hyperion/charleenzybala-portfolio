@@ -23,11 +23,11 @@ class Shortcodes {
     }
 
     public static function shortcodeGetPreviousPost() {
-            return previous_post_link('%link', 'Voir le projet précédent');
+            return previous_post_link('%link', '<< Voir le projet précédent');
     }
 
     public static function shortcodeGetNextPost() {
-            return next_post_link( '%link', 'Voir le projet suivant');
+            return next_post_link( '%link', 'Voir le projet suivant >>');
     }
 
 }
