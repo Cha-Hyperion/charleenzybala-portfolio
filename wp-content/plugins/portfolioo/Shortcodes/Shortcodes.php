@@ -18,10 +18,10 @@ class Shortcodes {
 
     public static function shortcodeGetWebsiteProject() {
         if (! empty(get_field('website'))) {
-            return '<a href="' . get_field('website') . '">Voir le site</a>';
+            return '<a href="' . get_field('website') . '">Voir le site >></a>';
         }
         if (! empty(get_field('demo'))) {
-            return '<a href="' . get_field('demo') . '">Voir la démo</a>';
+            return '<a href="' . get_field('demo') . '">Voir la démo >></a>';
         }
     }
 
