@@ -41,6 +41,12 @@ class Fields
                     'type' => 'url',
                 ],
                 [
+                    'key' => 'demo',
+                    'label' => 'URL de la demo',
+                    'name' => 'demo',
+                    'type' => 'url',
+                ],
+                [
                     'key' => 'conception',
                     'label' => 'Conception',
                     'name' => 'conception',
