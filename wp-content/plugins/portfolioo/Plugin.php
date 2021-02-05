@@ -107,6 +107,13 @@ class Plugin {
                 'shortcodeGetNextPost'
             ]
         );
+        add_shortcode( 
+            'show_lead_page',
+            [
+                Shortcodes::class,
+                'shortcodeShowLeadPage'
+            ]
+        );
         
     }
 

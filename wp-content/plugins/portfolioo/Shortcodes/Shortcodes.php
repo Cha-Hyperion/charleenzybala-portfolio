@@ -33,4 +33,11 @@ class Shortcodes {
             return next_post_link( '%link', 'Voir le projet suivant >>');
     }
 
+    public static function shortcodeShowLeadPage() {
+        $post = get_post();
+        if ($post->post_name ===  'site-vitrine-osteopathe') {
+           echo "<p>Intéressé par un site vitrine pour votre activité d'ostéopathe ? Découvrez <a href='https://charlenezybala.com/creation-site-internet-osteopathe'>ma solution</a>, pensée pour vous et vos patients.<br> A partir de 499€ seulement.</p>";
+        }
+    }
+
 }

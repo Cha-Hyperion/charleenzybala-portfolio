@@ -64,3 +64,9 @@ p, li {
 #cookiescript_reportwrap::-webkit-scrollbar-thumb, #cookiescript_aboutwrap::-webkit-scrollbar-thumb {
     background-color: #feb846 !important;
 }
+
+/* Lien vers pages de Lead à la fin des projets" */
+.show_lead_page {
+    text-align: center;
+    margin: 3rem;
+}
