@@ -37,6 +37,7 @@ function wpm_add_fbpixel() { ?>
 	'https://connect.facebook.net/en_US/fbevents.js');
 	fbq('init', '434866444264026');
 	fbq('track', 'PageView');
+	fbq('track', 'Lead');
 	</script>
 	<noscript><img height="1" width="1" style="display:none"
 	src="https://www.facebook.com/tr?id=434866444264026&ev=PageView&noscript=1"
