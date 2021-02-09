@@ -44,3 +44,19 @@ function wpm_add_fbpixel() { ?>
 	/></noscript>
 	<!-- End Facebook Pixel Code --> <?php };
 add_action('wp_head', 'wpm_add_fbpixel');
+
+function add_coockies_script_axeptio() { ?>
+	<script>
+	window.axeptioSettings = {
+	  clientId: "60225262fdfdd75f517306f6",
+	  cookiesVersion: "charlenezybala-base",
+	};
+	 
+	(function(d, s) {
+	  var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
+	  e.async = true; e.src = "//static.axept.io/sdk.js";
+	  t.parentNode.insertBefore(e, t);
+	})(document, "script");
+	</script>
+<?php }
+add_action ('wp_footer', 'add_coockies_script_axeptio');
