@@ -1,6 +1,6 @@
 {
     "name": "portfolio/charlenezybala",
-    "description": "Site vitrine de Charlene Zybala, freelance en création de site WordPress",
+    "description": "Site vitrine de Charlene Zybala, freelance WordPress",
     "authors": [
         {
             "name": "Charlene Zybala"
@@ -8,7 +8,7 @@
     ],
     "require": {
         "johnpbloch/wordpress": "^5.4",
-        "wpackagist-theme/twentytwenty": "^1.4",
+        "wpackagist-theme/twentytwentyone": "^1.4",
         "wpackagist-plugin/elementor": "^3.0",
         "wpackagist-theme/hello-elementor": "^2.3",
         "wpackagist-plugin/updraftplus": "^1.16",
