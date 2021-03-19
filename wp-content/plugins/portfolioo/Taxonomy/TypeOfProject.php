@@ -15,7 +15,7 @@ class TypeOfProject {
             [
                 'label'        => __('Types de projets'),
                 'public'       => true,
-                'hierarchical' => false,
+                'hierarchical' => true,
                 'show_in_rest' => true,
                 'rewrite'               => array ('slug' => "types-de-projets")
             ]
