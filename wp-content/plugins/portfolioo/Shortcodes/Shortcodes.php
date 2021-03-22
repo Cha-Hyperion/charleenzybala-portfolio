@@ -18,10 +18,10 @@ class Shortcodes {
 
     public static function shortcodeGetWebsiteProject() {
         if (! empty(get_field('website'))) {
-            return '<a href="' . get_field('website') . '">Voir le site >></a>';
+            return '<a href="' . get_field('website') . '" target="_blank">Voir le site >></a>';
         }
         if (! empty(get_field('demo'))) {
-            return '<a href="' . get_field('demo') . '">Voir la démo >></a>';
+            return '<a href="' . get_field('demo') . '" target="_blank">Voir la démo >></a>';
         }
     }
 
@@ -36,7 +36,7 @@ class Shortcodes {
     public static function shortcodeShowLeadPage() {
         $post = get_post();
         if ($post->post_name ===  'site-vitrine-osteopathe') {
-           echo "<p style='font-size:1.5rem; margin-top:3rem;' >Intéressé par un site vitrine pour votre activité d'ostéopathe ?<br> Découvrez <a href='https://charlenezybala.com/creation-site-internet-osteopathe'>ma solution</a>, pensée exculusivement pour vous et vos patients.<br> A partir de 499€ seulement.</p>";
+           echo "<p style='font-size:1.5rem; margin-top:3rem;' >Intéressé par un site vitrine pour votre activité d'ostéopathe ?<br> Découvrez <a href='https://charlenezybala.com/creation-site-internet-osteopathe'>ma solution</a>, pensée exclusivement pour vous et vos patients.<br> A partir de 499€ seulement.</p>";
         }
     }
 
