@@ -2,7 +2,9 @@
 namespace portfolioo;
 
 use portfolioo\PostType\Project as ProjectPostType;
+use portfolioo\PostType\Pack as PackPostType;
 use portfolioo\Taxonomy\TypeOfProject as TypeOfProjectTaxonomy;
+use portfolioo\Taxonomy\TypeOfPack as TypeOfPackTaxonomy;
 use portfolioo\CustomFields\Fields;
 use portfolioo\Shortcodes\Shortcodes;
 
@@ -36,21 +38,33 @@ class Plugin {
     public function registerPostTypes() {
         $projectPostType = new ProjectPostType;
         $projectPostType->register();
+
+        $packPostType = new PackPostType;
+        $packPostType->register();
     }
 
     public function unregisterPostTypes() {
         $projectPostType = new ProjectPostType;
         $projectPostType->unregister();
+
+        $packPostType = new PackPostType;
+        $packPostType->unregister();
     }
 
     public function registerTaxonomies() {
         $typeOfProject = new TypeOfProjectTaxonomy;
         $typeOfProject->register();
+
+        $typeOfPack = new TypeOfPackTaxonomy;
+        $typeOfPack->register();
     }
 
     public function unregisterTaxonomies() {
         $typeOfProject = new TypeOfProjectTaxonomy;
         $typeOfProject->unregister();
+
+        $typeOfPack = new TypeOfPackTaxonomy;
+        $typeOfPack->unregister();
     }
 
     private function acfActions()

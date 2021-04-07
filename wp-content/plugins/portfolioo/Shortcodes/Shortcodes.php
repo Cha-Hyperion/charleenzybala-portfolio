@@ -36,7 +36,7 @@ class Shortcodes {
     public static function shortcodeShowLeadPage() {
         $post = get_post();
         if ($post->post_name ===  'site-vitrine-osteopathe') {
-           echo "<p style='font-size:1.5rem; margin-top:3rem;' >Intéressé par un site vitrine pour votre activité d'ostéopathe ?<br> Découvrez <a href='https://charlenezybala.com/creation-site-internet-osteopathe'>ma solution</a>, pensée exclusivement pour vous et vos patients.<br> A partir de 499€ seulement.</p>";
+           echo "<p style='font-size:1.3rem; margin-top:3rem;' >Intéressé par un site vitrine pour votre activité d'ostéopathe ?<br> Découvrez <a href='https://charlenezybala.com/creation-site-internet-osteopathe'>ma solution</a>, pensée exclusivement pour vous et vos patients.<br> A partir de 499€ seulement.</p>";
         }
     }
 
