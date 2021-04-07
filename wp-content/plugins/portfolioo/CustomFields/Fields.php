@@ -76,8 +76,35 @@ class Fields
                 ],
             ],
         ]
+
         );
 
+        acf_add_local_field_group(
+            [
+                'key' => 'pack',
+                'title' => 'Détails du pack',
+                'fields' => 
+                [
+                    [
+                        'key' => 'pack-price',
+                        'label' => 'prix du pack',
+                        'name' => 'pack-price',
+                        'type' => 'number',
+                    ]
+                ],
+                'location' => 
+                [
+                    [
+                        [
+                            'param' => 'post_type',
+                            'operator' => '==',
+                            'value' => 'pack',
+                        ],
+                    ],
+                ],
+            ]
+    
+            );
 
     endif;
 

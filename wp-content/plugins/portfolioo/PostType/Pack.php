@@ -16,7 +16,7 @@ class Pack {
                 'public'                => true,
                 'hierarchical'          => true,
                 'show_in_rest'          => true,
-                'rewrite'               => array ('slug' => "packs"),
+                'rewrite'               => array ('slug' => "packs-wordpress"),
                 'supports'              => [
                     'title',
                     'editor',
