@@ -14,7 +14,7 @@ class TypeOfPack {
             PackPostType::NAME,
             [
                 'label'        => __('Types de packs'),
-                'public'       => true,
+                'public'       => false,
                 'hierarchical' => true,
                 'show_in_rest' => true,
                 'rewrite'               => array ('slug' => "types-de-packs")
