@@ -89,7 +89,7 @@ class Fields
                         'key' => 'pack-price',
                         'label' => 'prix du pack',
                         'name' => 'pack-price',
-                        'type' => 'number',
+                        'type' => 'text',
                     ]
                 ],
                 'location' => 
