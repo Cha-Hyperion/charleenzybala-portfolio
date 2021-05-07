@@ -3,20 +3,20 @@
 namespace portfolioo\PostType;
 
 
-class Pack {
+class Microservice {
 
-    public const NAME = 'pack';
+    public const NAME = 'microservice';
 
     public function register() {
     
         register_post_type(
             self::NAME,
             [
-                'label'                 => __('Packs'),
+                'label'                 => __('Microservices'),
                 'public'                => true,
                 'hierarchical'          => true,
                 'show_in_rest'          => true,
-                'rewrite'               => array ('slug' => "packs-wordpress"),
+                'rewrite'               => array ('slug' => "microservices-wordpress"),
                 'supports'              => [
                     'title',
                     'editor',

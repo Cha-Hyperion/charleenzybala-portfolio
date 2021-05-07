@@ -2,9 +2,8 @@
 namespace portfolioo;
 
 use portfolioo\PostType\Project as ProjectPostType;
-use portfolioo\PostType\Pack as PackPostType;
+use portfolioo\PostType\Microservice as MicroservicePostType;
 use portfolioo\Taxonomy\TypeOfProject as TypeOfProjectTaxonomy;
-use portfolioo\Taxonomy\TypeOfPack as TypeOfPackTaxonomy;
 use portfolioo\CustomFields\Fields;
 use portfolioo\Shortcodes\Shortcodes;
 
@@ -39,32 +38,26 @@ class Plugin {
         $projectPostType = new ProjectPostType;
         $projectPostType->register();
 
-        $packPostType = new PackPostType;
-        $packPostType->register();
+        $microservicePostType = new MicroservicePostType;
+        $microservicePostType->register();
     }
 
     public function unregisterPostTypes() {
         $projectPostType = new ProjectPostType;
         $projectPostType->unregister();
 
-        $packPostType = new PackPostType;
-        $packPostType->unregister();
+        $microservicePostType = new MicroservicePostType;
+        $microservicePostType->unregister();
     }
 
     public function registerTaxonomies() {
         $typeOfProject = new TypeOfProjectTaxonomy;
         $typeOfProject->register();
-
-        $typeOfPack = new TypeOfPackTaxonomy;
-        $typeOfPack->register();
     }
 
     public function unregisterTaxonomies() {
         $typeOfProject = new TypeOfProjectTaxonomy;
         $typeOfProject->unregister();
-
-        $typeOfPack = new TypeOfPackTaxonomy;
-        $typeOfPack->unregister();
     }
 
     private function acfActions()
