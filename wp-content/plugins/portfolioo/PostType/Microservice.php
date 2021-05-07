@@ -14,7 +14,7 @@ class Microservice {
             [
                 'label'                 => __('Microservices'),
                 'public'                => true,
-                'hierarchical'          => true,
+                'hierarchical'          => false,
                 'show_in_rest'          => true,
                 'rewrite'               => array ('slug' => "microservices-wordpress"),
                 'supports'              => [

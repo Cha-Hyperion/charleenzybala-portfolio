@@ -35,6 +35,13 @@ h4 {
     margin-top: 1.5rem;
 }*/
 
+h2 {
+    margin-top: 3rem;;
+}
+h3 {
+    margin-top: 2rem;;
+}
+
 p, li {
     font-family: 'Montserrat', sans-serif;
 }
