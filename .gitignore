@@ -17,6 +17,8 @@ wp-content/wpo-cache
 wp-content/object-cache.php
 wp-content/advanced-cache.php
 wp-content/wp-cache-config.php
+wp-content/wp-rocket-config
+
 
 wp-content/plugins/*
 !wp-content/plugins/portfolioo

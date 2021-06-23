@@ -1,3 +1,10 @@
+# o2switch pagespeed start / DO NOT REMOVE OR EDIT
+<IfModule pagespeed_module>
+ModPagespeed on
+ModPagespeedRewriteLevel PassThrough
+ModPagespeedEnableFilters add_head,canonicalize_javascript_libraries,collapse_whitespace,combine_css,combine_heads,extend_cache,hint_preload_subresources,lazyload_images,rewrite_javascript,move_css_above_scripts,move_css_to_head,insert_dns_prefetch,remove_comments,remove_quotes,rewrite_images,strip_image_meta_data,sprite_images
+</IfModule>
+# o2switch pagespeed end / DO NOT REMOVE OR EDIT
 # BEGIN iThemes Security - Ne modifiez pas ou ne supprimez pas cette ligne
 # iThemes Security Config Details: 2
 	# Passer au travers de l’en-tête d’autorisation.
@@ -205,7 +212,7 @@ RewriteRule .* - [E=WPR_ENC:_gzip]
 RewriteCond %{REQUEST_METHOD} GET
 RewriteCond %{QUERY_STRING} =""
 RewriteCond %{HTTP:Cookie} !(wordpress_logged_in_.+|wp-postpass_|wptouch_switch_toggle|comment_author_|comment_author_email_) [NC]
-RewriteCond %{REQUEST_URI} !^(/(.+/)?feed/?.+/?|/(?:.+/)?embed/|/(index\.php/)?wp\-json(/.*|$))$ [NC]
+RewriteCond %{REQUEST_URI} !^(/(.+/)?feed/?.+/?|/(?:.+/)?embed/)$ [NC]
 RewriteCond %{HTTP_USER_AGENT} !^(facebookexternalhit).* [NC]
 RewriteCond "%{DOCUMENT_ROOT}/wp-content/cache/wp-rocket/%{HTTP_HOST}%{REQUEST_URI}/index%{ENV:WPR_SSL}%{ENV:WPR_WEBP}.html%{ENV:WPR_ENC}" -f
 RewriteRule .* "/wp-content/cache/wp-rocket/%{HTTP_HOST}%{REQUEST_URI}/index%{ENV:WPR_SSL}%{ENV:WPR_WEBP}.html%{ENV:WPR_ENC}" [L]
@@ -243,4 +250,3 @@ RewriteRule . /index.php [L]
 # Apache 2.0
 SetOutputFilter DEFLATE
 AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript
-
