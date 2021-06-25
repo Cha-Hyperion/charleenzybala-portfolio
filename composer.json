@@ -16,7 +16,6 @@
         "wpackagist-plugin/better-wp-security": "^7.9",
         "wpackagist-plugin/advanced-custom-fields": "^5.9",
         "wpackagist-plugin/tiny-compress-images": "^3.2",
-        "wpackagist-plugin/w3-total-cache": "^0.15.2"
     },
     "extra": {
         "wordpress-install-dir": "wp"
